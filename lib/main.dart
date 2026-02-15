@@ -24,7 +24,7 @@ class DeleteDialogDemo extends StatelessWidget {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: const Text("Delete Item"), // Property 1
+          title: const Text("Delete this Item"), // Property 1
           content: const Text(
             "Are you sureeeeeee you want to delete this item?",
           ), // Property 2
@@ -55,7 +55,7 @@ class DeleteDialogDemo extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () => showDeleteDialog(context),
-          child: const Text("Delete Item"),
+          child: const Text("Delete this Item"),
         ),
       ),
     );
