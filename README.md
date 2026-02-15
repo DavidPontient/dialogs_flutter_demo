@@ -1,16 +1,21 @@
-# practice
+# Dialogs in Flutter – Demo App
 
-A new Flutter project.
+This Flutter project demonstrates the use of the **AlertDialog** widget in a simple real-world scenario.
 
-## Getting Started
+##  Overview
+The app shows a **delete confirmation dialog** when the user clicks a button.  
+This prevents accidental actions and improves user experience.
 
-This project is a starting point for a Flutter application.
+##  Demonstrated Properties
+The following three AlertDialog properties are showcased:
 
-A few resources to get you started if this is your first Flutter project:
+- `title` – Sets the heading of the dialog.
+- `content` – Displays the message inside the dialog.
+- `backgroundColor` – Changes the background color of the dialog.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  How to Run
+1. Ensure Flutter is installed.
+2. Run:
+   ```bash
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
